@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Forms Demo</h1>
+    <form action="/tacos">
+        <p>
+            <lable for="username">Enter a Username:</lable>
+            <input id="username" type="text" placeholder="username">
+        </p>
+        
+        <p>
+            <label for="password">Enater a Password</label> 
+            <input type="password" placeholder="password" id="password">
+        </p>
+        
+        <p>
+            <label for="color" id="color">Enter a color</label>
+            <input type="color">
+        </p>
+        <input type="numbers">
+        <input type="time">
+    </form>
+    
+</body>
+</html>
