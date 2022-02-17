@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Forms Demo</h1>
+    <form action="/tacos">
+        <p>
+            <lable for="username">Enter a Username:</lable>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        
+        <p>
+            <label for="password"> Enter Password:</lable>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+
+        <p>
+            <lable for="color">Enter a Color:</lable>
+            <input type="color" id="color" name="color">
+        </p>
+       
+        <p>
+            
+            <button type="button"> Click Me Button</button>
+            <button> Click Me Button 2</button>
+
+        </p>
+    </form>
+    <h1> Search Section</h1>
+ 
+    <!-- Google Search -->
+    <form action= "https://google.com/search">
+        <input type="text" name="q">
+        <button> Search Google</button>      
+    </form>
+
+<!-- Youtube Search -->
+    <form action= "https://youtube.com/search">
+        <input type="text" name="q">
+        <button> Search Youtube</button>
+</form>
+
+<h2>Terms of Service</h2>
+
+<!-- Checkbox-->
+<p>This is the terms of service were you will agree to give your<br> login credaintals to the following Rapid Z LLC.</p>
+<form action="/birds">
+<input type="checkbox" name="agree_tos" id="agree" checked>
+<label for="agree"> I agree </label>
+<p>
+    <lable for= "xs"> XS:</lable>
+    <input type="radio" name="size" id="xs" value="xs">
+    <lable for= "s"> S:</lable>
+    <input type="radio" name="size" id="s"value="s">
+    <lable for= "m"> M:</lable>
+    <input type="radio" name="size" id="m"value="m">
+</p>
+<label for="">Please Select One</label>
+<select name="meal" id="meal">
+    <option value="fish">Fish</option>
+    <option value="veg">Veggie</option>
+    <option value="meat">Meat</option>
+</select>
+<p>
+    <label for="cheese">Amount</label>
+    <input type="range" name="level_cheese" id="cheese" min="1" max="100">
+</p>
+
+<button>Submit</button>
+
+</form>
+
+<h2>Validations Demo</h2>
+<form action="/dummy">
+<label for="first"> Enter First Name </label>
+<input type="text" name="First" id="First" minlength="5" maxlength="12" required>
+
+<p>
+    <label for="username">Enter Username</label>
+    <input type="text" name="username" id="username">
+</p>
+
+<p>
+    <label for="email"> Enter Email</label>
+    <input type="email" name="email" id="email" required>
+</p>
+
+<button> Submit </button>
+</form>
+
+    </body>
+</html>
